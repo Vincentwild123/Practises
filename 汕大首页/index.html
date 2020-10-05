@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- 设置网页按照H5标准解析 -->
+<html lang="zh-CN">
+<!-- 设置网页语言zhongwen -->
+
+<head>
+    <!-- 设定网页字符集 -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 响应式设计，用于计算设备屏幕宽度 -->
+    <!-- maximum-scale=1,user-scalable=no  设置是否可以缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>STU Main Page</title>
+    <!-- CDN引入 Bootstrap -->
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css">本地样式 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <!-- 定义布局容器 自适应大小 -->
+    <div class="container">
+        <!-- 顶部导航栏 -->
+        <nav class="navbar navbar-default my-navbar  navbar-fixed-top">
+            <div class="navbar-header">
+                <a href="#">
+                    <img src="images/stulogo.jpg" style="height: 50px;width:50px;" alt="" class="navbar-brand">
+                </a>
+            </div>
+            <ul class="navbar-nav nav">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">MYSTU</a></li>
+                <li><a href="#">Web邮箱</a></li>
+                <li><a href="#">友情链接</a></li>
+                <li><a href="#">李嘉诚基金会</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+            <div class="navbar-form navbar-right">
+                <div class="form-group">
+                    <div class="input-group">
+                        <label for="#" class="input-group-addon">@</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <button class="btn btn-success">站内搜索</button>
+                </div>
+            </div>
+        </nav>
+        <img src="./images/top.png" alt="" class="img-responsive">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1500">
+            <!-- 图片容器 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/bgimg-behind.jpg" alt="图片显示异常">
+                </div>
+                <div class="item">
+                    <img src="images/bgimg-behind.jfif" alt="图片显示异常">
+                </div>
+                <div class="item">
+                    <img src="images/buttom-spring-logo.jpg" alt="图片显示异常">
+                </div>
+                <div class="item">
+                    <img src="images/buttom-summer-logo.jpeg" alt="图片显示异常">
+                </div>
+            </div>
+            <!-- 原点指示符 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <!-- 左右控制箭头 -->
+            <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-2">
+                <label class="label label-success">分类导航</label>
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">校情导航</a></li>
+                    <li><a href="#">组织机构</a></li>
+                    <li><a href="#">人才培养</a></li>
+                    <li><a href="#">科学研究</a></li>
+                    <li><a href="#">国际交流</a></li>
+                    <li><a href="#">招生信息</a></li>
+                    <li><a href="#">就业指导</a></li>
+                    <li><a href="#">学生事务</a></li>
+                    <li><a href="#">社区生活</a></li>
+                    <li><a href="#">诚聘英才</a></li>
+                    <li><a href="#">招标公示</a></li>
+                    <li><a href="#">海外考试</a></li>
+                    <li><a href="#">校友天地</a></li>
+                    <li><a href="#">媒体关注</a></li>
+                    <li><a href="#">专题网站</a></li>
+                    <li><a href="#">信息公开</a></li>
+                    <li><a href="#">中外合作办学</a></li>
+                </ul>
+            </div>
+            <div class="col-md-7">
+                <div class="media">
+                    <!-- 左边超链接 -->
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img src="images/poem.jpg" style="width: 300px;height: 200px;" alt="waring">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4><strong><em>《鹧鸪天》 宋·李鼐</em></strong></h4>
+                        <p> 种得门阑五福全。常珍初喜庆华筵。<br>
+
+                            王环醉拍春衫舞，今见康强九九年。<br>
+
+                            神爽朗，骨清坚。壶天日月旧因缘。<br>
+
+                            从今把定春风笑，且作人间长寿仙。</p>
+                    </div>
+                </div>
+                <label class="label label-success">最新要闻</label>
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">2019年汕头大学“翻译与文化研究”专题研讨会圆满落幕</a></li>
+                    <li><a href="#">汕大长江艺术与设计学院吴勇教授荣授 2019 年“中国最美的书”奖</a></li>
+                    <li><a href="#">汕大长江艺术与设计学院师生荣获多项中国最美旅游图书设计奖</a></li>
+                    <li><a href="#">汕大法学院荣获第17届“贸仲杯”国际商事模拟仲裁庭（英文）辩论赛全国二等奖</a></li>
+                    <li><a href="#">2019年度广东省数字信号与图像处理技术重点实验室年会在汕头大学成功召开</a></li>
+                    <li><a href="#">中国高等院校市场学研究会2019教学年会暨营销学科发展高峰论坛在汕大召开</a></li>
+                    <li><a href="#">2019年现代分析学术研讨会在汕头成功举办</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <label class="label label-success">主题宣传</label>
+                <img src="./images/right.jpg" alt="" class="img-responsive">
+                <div class="label   label-success">综合新闻</div>
+                <p>明德书院组织学生党员参观“伟大历程辉煌成就——庆祝中华人民共和国成立70周年大型成就展”网上展馆</p>
+                <label class="label label-success">专题信息</label>
+                <img src="./images/rigth-bottom.jpg" alt="" class="img-responsive">
+                <form action="#">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label for="#" class="input-group-addon">@</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <button class=" btn btn-danger">点击提交</button>
+                    </div>
+                </form>
+            </div>
+            <div id="bottom" class="jumbotron">
+                <div class="container">
+                    <p id="time"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            setInterval(getTime, 1000);
+
+            function getTime() {
+                var date = new Date();
+                $("#time").text(date.toString());
+                console.log(date.toString());
+                console.log($("#time"));
+            }
+        })
+    </script>
+   
+</body>
+
+</html>
