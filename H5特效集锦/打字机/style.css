@@ -1,0 +1,42 @@
+html,body{
+   height: 100%;
+}
+body{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: #eee;
+}
+.line{
+    width: 430px;
+    border-right: 2px solid #eee;
+    font-size: 28px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.animation{
+    /* animation参数说明：函数名+持续时长+运动方式函数+延迟时间+次数+运动方向 */
+    animation: grow 4s steps(40) 1s normal both ,
+    /* both参数指定动画开始前是否可见 */
+    blink 500ms steps(40) infinite normal;
+}
+@keyframes grow{
+    from{
+        width: 0;
+    }
+    to{
+        width: 430px;
+    }
+}
+@keyframes blink{
+    from{
+        border-right-color:transparent;
+    }
+    to{
+        border-right-color:#eee;
+    }
+}

@@ -1,0 +1,146 @@
+.navbg-content {
+    display: flex;
+    height: 380px;
+    width: 88vw;
+    margin: 0 auto;
+    margin-top: 260px;
+  }
+  .navbar-content > div {
+    height: 100%;
+  }
+  .navbar-content-box1 {
+    position: relative;
+    background: url("./matchimg.jpg") no-repeat center;
+    background-size: cover;
+    flex: 5;
+  }
+  .list-match {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3.2em;
+    list-style-type: none;
+    font-size: 14px;
+    color: rgb(192, 188, 188);
+    background: rgba(42, 42, 48, 0.9);
+  }
+  .list-match {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .list-match > li {
+    width: 100%;
+    height: 100%;
+  }
+  .list-match > li:hover {
+    color: rgb(235, 191, 109);
+    cursor: pointer;
+    background: rgba(70, 70, 70, 0.6);
+  }
+  .box2 {
+      position: relative;
+    flex: 3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(37, 35, 35, 0.95);
+  }
+  .box3 {
+    flex: 2;
+  }
+  .list1 {
+    width: 90%;
+    flex: 0.8;
+    color: rgb(240, 243, 247);
+    display: flex;
+    font-size: 14px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    border-bottom: 1px rgb(247, 245, 241) solid;
+  }
+  .list2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex: 0.6;
+    width: 90%;
+    background-color: gray;
+  }
+  .list2>div{
+    color:rgb(255, 251, 4);
+    font-size: 1.2em;
+  }
+  .list3 {
+    margin: 10px 0;
+    width: 100%;
+    color: wheat;
+    list-style-type: none;
+    flex: 4;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .list3 > li {
+    width: 80%;
+    display: flex;
+  }
+  .list3 > li > span:nth-child(1) {
+    text-align: center;
+    flex: 1.2;
+    border: 1px rgb(238, 174, 54) solid;
+  }
+  .list3 > li > span:nth-child(2) {
+    flex: 7;
+  }
+  .list3 > li > span:nth-child(3) {
+    flex: 1;
+  }
+  .list3 .main,
+  .date {
+    color: rgb(201, 196, 196);
+  }
+  .list3 .main {
+    padding-left: 6px;
+  }
+  .list3 .acti {
+    color: rgb(236, 179, 73);
+  }
+  
+  .list > li > span {
+    text-align: left;
+  }
+  .box3{
+    display: flex;
+    flex-direction: column;
+  }
+  .b1{
+    background: url('./down.png') no-repeat ;
+    background-size: cover;
+  
+  }
+  .b2{
+    background: url('./2.png') no-repeat ;
+    background-size: cover;
+  }
+  .b3{
+    background: url('./3.png') no-repeat ;
+    background-size: cover;
+  }
+  .b1,.b2,.b3{
+    width: auto;
+    height: auto;
+    flex: 1;
+  }
+  .test {
+    height: 200px;
+  }
+  

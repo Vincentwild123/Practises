@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 128px;
+  font-weight: 900;
+  height: 100vh;
+  transition: all 0.4s ease; 
+}
+section:hover{
+  font-size: 200px;
+}
+.g-img1{
+  background-image: url(./1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.g-img2{
+  background-image: url(./2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.g-img3{
+  background-image: url(./3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.g-img4{
+  background-image: url(./4.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}

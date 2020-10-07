@@ -1,0 +1,28 @@
+.icon-down {
+    margin-left: 8px;
+    position: relative;
+    width: 10px;
+    height: 10px;
+  }
+  .icon-down::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 40%;
+    left: 0;
+    display: inline-block;
+    border: 6px solid;
+    border-color: rgb(151, 151, 156) transparent transparent;
+  }
+  .icon-down::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 10%;
+    left: 0;
+    display: inline-block;
+    border: 6px solid;
+    border-color: rgb(247, 250, 246) transparent transparent;
+  }

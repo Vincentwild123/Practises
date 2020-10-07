@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url('./1.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 20px rgb(38, 243, 38);
+    overflow: hidden;
+    backdrop-filter: blur(6px);
+    font-size: large;
+    font-weight: 600;
+    color: blue;
+    text-align: center;
+    font-size: 0.8em;
+}

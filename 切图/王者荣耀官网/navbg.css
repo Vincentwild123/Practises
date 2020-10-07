@@ -1,0 +1,153 @@
+.navbg {
+  background: url("./bg.jpg") no-repeat center;
+  background-position: 60% 0;
+}
+ 
+.navbg::before {
+  position: absolute;
+  content: "";
+  top: 0;left: 0; right: 0;bottom: 0;
+  background: url(./shu1.jpg);
+ -webkit-mask: linear-gradient(45deg, #000 40%, transparent 60%);
+}
+.navbar {
+  background-color: rgba(0, 0, 0, .9);
+  overflow:hidden;
+  height: 5em;
+  padding: 0 50px;
+}
+.logo-icon,
+.navbar-login {
+  flex: 1;
+  height: 100%;
+}
+.logo-icon{
+  transform: translate(20px,-6px);
+}
+.navbar-list {
+  flex: 2;
+  list-style-type: none;
+  height: 100%;
+  color: rgb(209, 207, 203);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-text span{
+  display: block;
+}
+.icon-login {
+  cursor: pointer;
+  transform: translateX(-10px);
+  border: 2px rgb(238, 168, 39) solid;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+}
+.login-text > span:nth-child(1) {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+.login-text > span:nth-child(2) {
+  color: rgb(160, 150, 150);
+  font-size: 0.9em;
+}
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-list > li {
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.navbar-list > li > div {
+  text-align: center;
+}
+.navbar-list > li::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.navbar-list > li:hover {
+  color: rgb(243, 168, 29);
+  cursor: pointer;
+}
+.navbar-list> li:hover::after {
+  background-image: linear-gradient(
+    to top,
+    rgba(248, 248, 18, 0.3),
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: 0 0 0 0 black, 0 0 0 0 black, inset 0 -3px 0 0 rgb(248, 252, 31);
+}
+.cn {
+  font-size: 1.1em;
+}
+.en {
+  font-size: 0.4em;
+  color: rgb(197, 193, 193);
+}
+.navbar-container {
+  height:40vh;
+}
+.hidden-list{
+  height: 0;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.74);
+  transition: all 0.2s ease-in-out;
+}
+.hidden-list> div {
+  width: 99px;
+  list-style-type: none;
+  padding-top: 10px;
+}
+.hidden-list> div > li {
+  margin: 10px 0;
+  text-align: center;
+  color: rgb(231, 225, 225);
+  font-size: 0.9em;
+}
+.hidden-list> div > li:hover {
+  color: rgb(228, 167, 53);
+  cursor: pointer;
+}
+.header-bottom-img {
+  margin: 20px auto;
+  width: 88vw;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-bottom-img > div:nth-child(1) {
+  background: url("./111.jpg") no-repeat center;
+  background-size: 100%;
+}
+.header-bottom-img> div:nth-child(2) {
+  background: url("./222.jpg") no-repeat center;
+  background-size: 100%;
+}
+.header-bottom-img > div:nth-child(3) {
+  background: url("./333.jpg") no-repeat center;
+  background-size: 100%;
+}
+.header-bottom-img > div:nth-child(4) {
+  background: url("./444.jpg") no-repeat center;
+  background-size: 100%;
+}
+
+.header-bottom-img > div:hover {
+  background-size: 120%;
+}
+.header-bottom-img > div {
+  transition: background-size .3s linear;
+  border-radius: 3px;
+  width: 21vw;
+  height: 100%;
+}
