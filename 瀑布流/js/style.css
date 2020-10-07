@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:none
+}
+body{
+    background: #ddd
+}
+.wrap{
+    padding-top: 30px;
+    position: relative;
+    margin:0 auto;
+}
+.item{
+   position: absolute;
+   width: 280px;   
+   box-sizing: border-box;
+}
+.item img{
+    display: block;
+    width:100%;
+}
+
