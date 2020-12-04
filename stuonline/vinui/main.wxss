@@ -1,0 +1,28 @@
+.vin-mimicry-change {
+    border-radius: 0% 20% 10% 5%;
+    background: linear-gradient(145deg, #ffffff, #dddde1);
+    box-shadow: 8px 8px 16px #d1d0d5, -8px -8px 16px #ffffff;
+  }
+  .vin-mimicry-normal {
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ffffff, #dddde1);
+    box-shadow: 8px 8px 16px #d1d0d5, -8px -8px 16px #ffffff;
+  }
+  
+  .vin-mimicry-insert {
+    border-radius: 0;
+    background: linear-gradient(145deg, #dddde1, #ffffff);
+    box-shadow: 4px 4px 10px #d1d0d5, -4px -4px 10px #ffffff;
+  }
+  
+  .vin-tag {
+    position: absolute;
+    top: 46%;
+    right: 30px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 1.3em;
+    border-radius: 50%;
+    color: green;
+  }
